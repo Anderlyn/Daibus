@@ -1,0 +1,22 @@
+.login_container {
+  display: grid;
+  height: 100vh;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    margin-left: -25px;
+  }
+  to {
+    margin-left: 0px;
+    opacity: 1;
+  }
+}
+
+.login_card {
+  animation: slideIn 1s forwards;
+}

@@ -1,0 +1,27 @@
+.admin_container {
+  padding: 50px !important;
+}
+
+.admin__route__form {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  min-height: 340px;
+}
+
+.admin__route__table {
+  padding: 30px !important;
+  margin-top: 7px;
+}
+.user__qr {
+  margin: 0 auto;
+}
+
+.admin_card_1 {
+  animation: slideInDown 0.5s forwards;
+}
+
+.admin_card_2 {
+  animation: slideInDown 0.8s forwards;
+}
